@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=calendar_month,close,edit" />
+</head>
+<body>
+    <header>
+        <h1>Todo</h1>
+    </header>
+    <main>
+        <form class="input-form">
+            <input class="text-input" type="text" placeholder="Add Task">
+            <span id="open-picker" class="material-symbols-outlined" style="cursor:pointer;">
+                calendar_month
+            </span>
+            <input type="datetime-local" id="datetime-picker">
+        </form>
+        <div class="lists">
+            <ul class="task-list"></ul>
+            <ul class="completed-list"></ul>
+        </div>
+    </main>
+    <footer>
+        <button class="remove hide">Remove checked</button>
+    </footer>
+
+    <script src="popup.js"></script>
+</body>
+</html>

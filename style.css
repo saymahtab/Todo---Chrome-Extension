@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    padding: 1rem;
+    font-family: 'Poppins';
+}
+h1 {
+    font-size: 1.5rem;
+    color: #FF5722;
+}
+main {
+    margin: 0.7rem 0;
+}
+.input-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    position: relative;
+}
+.text-input {
+    padding: 0.9rem 1.2rem;
+    padding-right: 3rem;
+    width: 19rem;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    color: #333333;
+    background-color: #eeeeee;
+}
+#datetime-picker {
+    position: absolute;
+    left: 0;
+    border: none;
+    top: 3.2rem;
+    height: 2rem;
+    width: 100%;
+    padding: 1.2rem 4rem;
+    border-radius: 2rem;
+    visibility: hidden;
+    background-color: #eeeeee;
+}
+span {
+    margin-top: 0.3rem;
+    cursor: pointer;
+    color: #fca88e;
+}
+span:hover {
+    color: #FF5722;
+    transition: 0.5s ease-in-out;
+}
+#open-picker {
+    position: absolute;
+    right: 1.2rem;
+    margin-top: 0;
+}
+
+.task-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-top: 1.1rem;
+}
+.tasks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    padding: 0.2rem 1rem;
+    border-radius: 0.3rem;
+    transition: 0.5s ease;
+}
+
+.task-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+.check-input {
+    width: 0.9rem;
+    height: 0.9rem;
+}
+.task {
+    font-size: 0.8rem;
+    color: #333333;
+    max-width: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.done {
+    padding: 0.3rem 1.2rem;
+    border: 2px solid #FF5722;
+    color: #333333;
+    font-weight: 500;
+}
+.remove {
+    padding: 0.57rem 0.8rem;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #FF5722;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.hide {
+    display: none;
+}
+.edit-input {
+    border: none;
+    outline: none;
+    background-color: #f6f6f6;
+}
+.completed-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-top: 0.2rem;
+}
+.completed {
+    opacity: 0.5;
+}
+.empty {
+    margin: 0 1rem;
+    font-size: 0.8rem;
+    color: #B0C4DE;
+    font-size: 1rem;
+}

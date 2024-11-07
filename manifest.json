@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Todo",
+  "name": "Remind Me - Simple Todo List",
   "version": "1.0",
   "description": "A Chrome extension for a feature-rich To-Do List with reminders and notifications.",
   "icons": {
